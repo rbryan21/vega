@@ -12,7 +12,7 @@ namespace vega.Mapping
             //  currently unidirectional (make => makeresource) not (makeresource => make)
             CreateMap<Make, MakeResource>();
             CreateMap<Model, ModelResource>();
-
+            CreateMap<Feature, FeatureResource>();
         }
     }
 }
